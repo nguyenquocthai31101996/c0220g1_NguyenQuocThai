@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let ten=prompt("Ten:")
+    let cmnd=prompt("CMND:")
+    let namsinh=prompt("ngay/thang/nam sinh:")
+    let email=prompt("email:")
+    let diachi=prompt("dia chi:")
+    let Customer= prompt( "Customer:")
+    let giamgia= parseInt(prompt("giamgia"))
+    let soluongdikem =prompt("so luong di kem:")
+    let songaythue= parseInt(prompt("so ngay thue:"))
+    let loaidichvu=prompt("loai dich vu:")
+    let loaiphongthue= prompt("loai phong thue")
+    let dongia
+
+    let tongtien
+    giamgia1= 1- parseInt(giamgia)/100
+    if (loaidichvu=="Villa") {
+        dongia=500}
+    if(loaidichvu=="House") {
+        dongia = 300}
+    if (loaidichvu=="Room") {
+        dongia = 100
+    }
+    tongtien= dongia*songaythue*giamgia1
+  tongtien=alert("tong tien:"+tongtien)
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

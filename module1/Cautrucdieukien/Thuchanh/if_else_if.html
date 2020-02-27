@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+Nếu tên nhập vào là Admin thì yêu cầu nhập mật khẩu.
+Nếu mật khẩu là TheMaster thì in ra chuỗi Welcome.
+Nếu mật khẩu nhập vào là null in ra chuỗi Canceled.
+Còn lại in ra chuỗi Wrong password.
+Nếu tên nhập vào là null in ra chuỗi canceld.
+Còn lại in ra chuỗi “I don’t know you
+<body>
+<script>
+    let ten = prompt("Ten dang nhap:");
+    if (ten == "admin") {
+        let pass = prompt("nhap pass:");
+        if (pass == "thai") {
+            alert("welcome");
+        }
+        if(pass== "null") {
+            alert("canceled")
+        } else {
+            alert("wrong pass")
+        }
+    }
+    if (ten== "null") {
+        alert("canceled");
+    } else {
+        alert("i don't know you")
+    }
+</script>
+</body>
+</html>
